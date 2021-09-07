@@ -1,18 +1,135 @@
-body {
-    background-color: #EAF6F0;
+
+body{
+    color:#40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;  
+   
 }
-hr
-{
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 10px;
-    border-color: rgb(195, 195, 195);
-    width: 5%;
-}
+
 h1{
+    /*16px = 100% = 1em that means if you want to change the font size dynamically according to the browser 
+    settings than divide the pixel size with 16 and use either % sign or em to make it happen. r(root) before em 
+    make sures that the h1 text does not get effected by the font size of the body which if not used can add up 
+    in the current font and make the the font too big ....*/
+    font-size: 4.00rem;
+    color:#66BFBF;
+    position: relative;
+    margin: 100px auto 0 auto;
+    margin-bottom: 0;
+    font-family: 'Sacramento', cursive;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
     color: #66BFBF;
 }
 h3{
-    color: #66BFBF;
-
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
+.top-container{
+    text-align: center;
+    background-color:#E1F8F5;
+  padding-left: 20px;
+  position: relative;
+  height: 400px;
+}
+hr{
+    border:dotted #e2e2e2 6px;
+border-bottom: none;
+width: 3%;}
+.top-cloud{
+    margin-top:70px;
+    position: absolute;
+    right: 300px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 40px;
+    
+}
+.background-Image{
+height: 200px;
+width: 200px;
+}
+.mobile{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.seo{
+    width:25%;
+    float: right;
+    margin-left: 30px;
+}
+.web{
+    width:25%;
+    float: right;
+    margin-left: 30px;
+}
+.photoshop{
+    width:25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-row{
+    width: 50%;
+    margin:50px auto 100px auto; 
+    text-align: left;
+    line-height: 2;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+a{
+    color:#044d50;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px 20px
+}
+a:hover{
+    color: #e2e2e2;
+}
+.intro{
+    width: 50%;
+    margin: 30px auto;
+    line-height: 2;
+}
+.button_property {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px;
+   
+    border: solid #66BFBF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ .button_property:hover {
+    border: solid #66BFBF 1px;
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
+    background-image: -moz-linear-gradient(top, #11999E, #66BFBF);
+    background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
+    background-image: -o-linear-gradient(top, #11999E, #66BFBF);
+    background-image: -webkit-gradient(to bottom, #11999E, #66BFBF);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
